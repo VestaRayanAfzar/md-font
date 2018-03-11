@@ -1,10 +1,11 @@
 {
   "name": "md-font",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
   "description": "just font folder of the whole material-design-icons",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "extract": "gulp",
+    "deploy": "gulp deploy"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,10 @@
     "url": "https://github.com/VestaRayanAfzar/md-font/issues"
   },
   "homepage": "https://github.com/VestaRayanAfzar/md-font#readme",
-  "dependencies": {
-    "material-design-icons": "^2.2.3"
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "material-design-icons": "^2.2.3",
+    "rimraf": "^2.6.2"
   }
 }
